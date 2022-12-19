@@ -1,7 +1,5 @@
-from os.path import isfile
-import struct
+
 import os
-import binascii
 
 def patchRolls(fp, outfile):
     data = ''
